@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.page_numbers {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+.number {
+  display: flex;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+.number:hover {
+  background-color: lightgray;
+}
+.active {
+  background-color: #6a0bff;
+  color: white;
+}
+.active:hover {
+  background-color: #6a0bff;
+}

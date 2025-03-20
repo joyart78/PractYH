@@ -1,0 +1,33 @@
+.header__button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: "Manrope-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 110%;
+  font-weight: 600;
+  color: #6a0bff;
+  padding: 0;
+}
+
+.header__buttonRegister {
+  background: #6a0bff;
+  border-radius: 12px;
+  padding: 13px 24px;
+  color: #ffffff;
+  font-family: "Manrope-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header__buttonRegister:hover {
+  background: #5a00cc;
+}
+
+.header__buttonText {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
