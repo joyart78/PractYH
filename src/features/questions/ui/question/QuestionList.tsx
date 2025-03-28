@@ -29,7 +29,7 @@ const QuestionList = () => {
 
   const dispatch = useDispatch();
 
-  const { data, error, isLoading } = questionApi.useGetQuestionQuery({
+  const { data, isLoading } = questionApi.useGetQuestionQuery({
     page,
     limit,
     titleOrDescription,
@@ -49,8 +49,6 @@ const QuestionList = () => {
   const handlePrevPage = () => dispatch(prevPage());
   const handleNextPage = () => dispatch(nextPage());
   const handlePageClick = (pageNumber: number) => dispatch(setPage(pageNumber));
-
-  if (error) return <div>404 error</div>;
 
   if (!questions.length)
     return (
