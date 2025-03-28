@@ -2,7 +2,8 @@
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  margin: 40px auto 0 auto;
+  max-width: 1440px;
+  margin: 40px auto;
   padding: 0 112px;
   gap: 20px;
   font-family: "Manrope", sans-serif;
