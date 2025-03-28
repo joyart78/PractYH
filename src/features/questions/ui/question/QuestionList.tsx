@@ -53,7 +53,7 @@ const QuestionList = () => {
   if (!questions.length)
     return (
       <div>
-        <Skeleton height={650} width={750} />
+        <Skeleton height={650} width={550} />
       </div>
     );
 
