@@ -1,0 +1,21 @@
+.button_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 296px;
+}
+.skills_container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.button_more{
+  display: flex;
+  color: #5509cc;
+  text-decoration-line: underline;
+}
+.title{
+  font-size: 14px;
+  font-weight: 400;
+  color: #474747
+}

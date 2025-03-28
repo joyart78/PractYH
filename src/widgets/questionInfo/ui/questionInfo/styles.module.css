@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.content_container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    box-shadow: 0px 4px 10px 0px rgba(106, 99, 118, 0.10);
+    background-color: white;
+    padding: 24px;
+}
+
+.back{
+    display: flex;
+    margin: 24px 0;
+}
+
+.content_title{
+    gap: 8px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    max-width: 804px;
+    gap: 20px;
+}
+
+.content_answer {
+    gap: 20px;
+}
+
+.answer_title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.answer_content {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.answer_content_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.filter{
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content_filter{
+    gap: 24px;
+}
+
+.filter_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 296px;
+}
+
+.filter_title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #474747
+}
+
+.filer_container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rate {
+    display: flex;
+    padding: 6px 10px;
+    gap: 12px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    font-weight: 600;
+}
+.rate_number {
+    display: flex;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: #6a0bff;
+    color: white;
+    line-height: 120%;
+}

@@ -47,9 +47,8 @@ const Pagination = ({
 
           if (pageNum > 0 && pageNum <= totalPage) {
             return (
-              <li>
+              <li key={pageNum}>
                 <button
-                  key={pageNum}
                   onClick={() => handlePageClick(pageNum)}
                   className={`${styles.number} ${page === pageNum ? styles.active : ""}`}
                   disabled={isLoading}

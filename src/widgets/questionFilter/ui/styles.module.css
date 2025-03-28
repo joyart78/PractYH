@@ -1,0 +1,9 @@
+.filter_container {
+  display: flex;
+  flex-direction: column;
+  width: 392px;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 24px;
+  background-color: white;
+}
